@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src="./index.js"></script>
+        <title>Cat Energy</title>
+    </head>
+    <body class="font-[oswald]">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="relative">
+                <img
+                    class="absolute top-0 right-0 z-[-1] h-full max-lg:hidden"
+                    src="./images/index-background-desktop.jpg"
+                    alt="bg"
+                />
+                <nav
+                    class="flex items-center justify-between pt-[53px] max-w-[1220px] mx-auto max-xl:px-[40px]"
+                >
+                    <a href="#">
+                        <img
+                            class="max-lg:w-[174px] max-lg:h-[52px]"
+                            src="./images/logo-desktop.svg"
+                            alt=""
+                        />
+                    </a>
+                    <ul class="flex gap-[32px]">
+                        <li>
+                            <a
+                                class="text-[20px] uppercase text-[white] max-lg:text-[black] max-lg:text-[18px]"
+                                href="#"
+                                >главная</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text-[20px] uppercase text-[white] max-lg:text-[black] max-lg:text-[18px]"
+                                href="#"
+                                >Каталог продукции</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text-[20px] uppercase text-[white] max-lg:text-[black] max-lg:text-[18px]"
+                                href="#"
+                                >подбор программы</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div
+                    class="border-[gray] border-[1px] border-dashed mt-[20px] max-lg:border-none"
+                >
+                    <header
+                        class="flex items-center max-w-[1220px] mx-auto pt-[16px] pb-[32px] max-xl:px-[40px] max-lg:flex-col max-lg:items-start max-lg:ml-[40px]"
+                    >
+                        <div>
+                            <h1
+                                class="text-[60px] leading-[60px] max-w-[415px] mb-[40px]"
+                            >
+                                Функциональное питание для котов
+                            </h1>
+                            <p
+                                class="text-[20px] leading-[20px] mb-[52px] uppercase"
+                            >
+                                Занялся собой? Займись котом!
+                            </p>
+                            <a
+                                href="#"
+                                class="inline-block text-[20px] uppercase bg-[#68B738] px-[26px] py-[14px] text-[white]"
+                                >подобрать программу</a
+                            >
+                        </div>
+                        <img
+                            src="./images/index-can.png"
+                            alt="can"
+                            class="max-lg:relative top-[-90px] z-[-1] max-md:w-full"
+                        />
+                    </header>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
